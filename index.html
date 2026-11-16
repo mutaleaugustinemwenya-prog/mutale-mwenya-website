@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mutale Mwenya | Author, Writer & Publisher</title>
+<meta name="description" content="The official website of Mutale Mwenya, Author, Writer and Publisher. Exploring destiny, human purpose, political psychology, suffering and the human condition.">
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --background: #101010;
+  --surface: #181818;
+  --gold: #b99a5b;
+  --text: #e9e5dc;
+  --muted: #aaa49a;
+  --line: #34312b;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.8;
+}
+
+a { color: inherit; text-decoration: none; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(16,16,16,.96);
+  border-bottom: 1px solid var(--line);
+  padding: 18px 7%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  color: var(--gold);
+  letter-spacing: 1px;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+nav a:hover { color: var(--gold); }
+
+.hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  padding: 100px 12%;
+  background: linear-gradient(110deg, #101010 60%, #211d16);
+}
+
+.hero-content { max-width: 800px; }
+
+.eyebrow {
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: clamp(48px, 8vw, 88px);
+  line-height: 1.12;
+  margin-bottom: 24px;
+}
+
+h1 span { color: var(--gold); }
+
+.hero p {
+  max-width: 650px;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 25px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-button:hover {
+  background: var(--gold);
+  color: #101010;
+}
+
+section {
+  padding: 95px 12%;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 75px;
+}
+
+.section-label {
+  color: var(--gold);
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: clamp(32px, 5vw, 48px);
+  margin-bottom: 28px;
+}
+
+h3 {
+  font-size: 23px;
+  margin-bottom: 12px;
+  color: var(--gold);
+}
+
+p { color: var(--muted); margin-bottom: 18px; }
+
+.about-text { max-width: 800px; font-size: 16px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 28px;
+}
+
+.item p { font-size: 14px; margin-bottom: 0; }
+
+.book-status {
+  color: var(--gold);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.quote {
+  border-left: 2px solid var(--gold);
+  padding: 8px 0 8px 25px;
+  margin-top: 35px;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--text);
+  max-width: 750px;
+}
+
+footer {
+  padding: 45px 12%;
+  background: #0b0b0b;
+  text-align: center;
+}
+
+footer .logo { margin-bottom: 12px; }
+footer p { font-size: 12px; margin: 0; }
+
+@media (max-width: 700px) {
+  header { padding: 15px 5%; }
+  nav { align-items: flex-start; flex-direction: column; }
+  nav ul { gap: 12px 18px; }
+  nav a { font-size: 10px; }
+  .hero { padding: 85px 7%; min-height: 550px; }
+  section { padding: 70px 7%; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+  <a class="logo" href="#home">MUTALE MWENYA</a>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#essays">Essays</a></li>
+    <li><a href="#research">Ideas</a></li>
+    <li><a href="#publications">Publishing</a></li>
+  </ul>
+</nav>
+</header>
+
+<main>
+
+<div class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">Author · Writer · Publisher</div>
+    <h1>Examining the <span>human condition.</span></h1>
+    <p>
+      Writing about destiny, suffering, human purpose, political power
+      and the hidden psychological forces that shape individual and
+      collective life.
+    </p>
+    <a href="#about" class="hero-button">Discover my work</a>
+  </div>
+</div>
+
+<section id="about">
+  <div class="section-label">The Author</div>
+  <h2>About Mutale Mwenya</h2>
+  <div class="about-text">
+    <p>
+      I am an author, writer and publisher interested in the fundamental
+      questions of human existence: why we suffer, what gives life
+      direction, how power shapes human behaviour, and what lies beneath
+      the visible actions of individuals and societies.
+    </p>
+    <p>
+      I write to communicate life fundamentals such as the reality of
+      pain and suffering, the necessity of purpose and vocation, and
+      how the human psyche interacts with political power.
+    </p>
+    <p>
+      As a writer, I believe in writing about the truth that hides in
+      the human heart and is acted out in the social arena. Truths such
+      as malevolence, political violence, and the ego and its dark twin,
+      the shadow.
+    </p>
+  </div>
+</section>
+
+<section id="books">
+  <div class="section-label">Books & Manuscripts</div>
+  <h2>Selected Works</h2>
+  <div class="grid">
+    <div class="item">
+      <span class="book-status">Manuscript</span>
+      <h3>The Science of Destiny</h3>
+      <p>
+        An exploration of destiny, purpose and the deeper forces
+        that shape the direction of human life.
+      </p>
+    </div>
+    <div class="item">
+      <span class="book-status">In Development</span>
+      <h3>The Pain Compass</h3>
+      <p>
+        A guided workbook examining the laws of pain and the
+        possibilities of understanding suffering.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="essays">
+  <div class="section-label">Writing & Commentary</div>
+  <h2>Essays</h2>
+  <p>
+    Essays and reflections on the psychological, philosophical
+    and political dimensions of human life.
+  </p>
+  <div class="grid">
+    <div class="item">
+      <h3>Destiny & Purpose</h3>
+      <p>Reflections on calling, vocation, direction and the meaning of human life.</p>
+    </div>
+    <div class="item">
+      <h3>Human Suffering</h3>
+      <p>Examining pain, adversity, vulnerability and the realities of existence.</p>
+    </div>
+    <div class="item">
+      <h3>Political Psychology</h3>
+      <p>Exploring the psychological forces behind political behaviour and violence.</p>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="section-label">Intellectual Interests</div>
+  <h2>Research & Ideas</h2>
+  <div class="grid">
+    <div class="item">
+      <h3>Destiny and Human Purpose</h3>
+      <p>The relationship between human potential, vocation and life's direction.</p>
+    </div>
+    <div class="item">
+      <h3>Political Psychology</h3>
+      <p>The psychological foundations of political behaviour, ideology and violence.</p>
+    </div>
+    <div class="item">
+      <h3>Suffering and Psychology</h3>
+      <p>The nature of pain, vulnerability and the human response to adversity.</p>
+    </div>
+    <div class="item">
+      <h3>Power and Authority</h3>
+      <p>How power, authority and control influence individual and collective behaviour.</p>
+    </div>
+    <div class="item">
+      <h3>Philosophy and the Human Condition</h3>
+      <p>Questions concerning existence, human nature and the structure of life.</p>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="section-label">Publishing</div>
+  <h2>Mockingbird Digital</h2>
+  <p class="about-text">
+    Mockingbird Digital is the publishing imprint associated with
+    my work. It provides a home for original publications, written
+    resources and ideas developed for thoughtful readers.
+  </p>
+  <div class="quote">
+    The written word is a means of examining what is hidden,
+    articulating what is difficult, and giving form to ideas.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="logo">MUTALE MWENYA</div>
+  <p>Author · Writer · Publisher</p>
+  <p style="margin-top:12px;">© <span id="year"></span> Mutale Mwenya. All rights reserved.</p>
+  <p>Published under the Mockingbird Digital imprint.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
